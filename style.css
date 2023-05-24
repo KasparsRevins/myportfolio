@@ -96,6 +96,12 @@ strong{
     margin-bottom: 1em;
  }
 
+ .section__subtitle--project{
+    color: var(--clr--accent);
+    font-weight: var(--fw-bold);
+    margin-bottom: 2em;
+}
+
 /* Header */
 
 nav{display: none;}
@@ -194,4 +200,17 @@ nav{display: none;}
 .my-projects{
     background-color: var(--clr--dark);
     color: var(--clr--light);
+}
+
+/* My projects */
+
+.my-projects{
+    background-color: var(--clr--dark);
+    color: var(--clr--light);
+    text-align: center;
+}
+
+.portfolio{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
