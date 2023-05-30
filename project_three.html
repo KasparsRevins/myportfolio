@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Kaspars Portfolio Site</title>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css" 
+        integrity="sha512-Z0kTB03S7BU+JFU0nw9mjSBcRnZm2Bvm0tzOX9/OuOuz01XQfOpa0w/N9u6Jf2f1OAdegdIPWZ9nIZZ+keEvBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+        <link rel="icon" href="img/favicon.ico" type="image/icon type">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#tech" class="nav__link">Technologies I use</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#projects" class="nav__link">My projects</a></li>
+                </ul>
+            </nav>
+        </header>
+         <!-- Introduction -->
+         <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Project one <strong>LBTT Tax Calculator </strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Reverse engineered website</p>
+            <img src="img/lbtt_screenshot_main.png" class="intro__img" alt="">
+        </section>
+        
+        <!-- Portfolio Project-->
+        <div class="portfolio-item-individual">
+            <p>
+                The Task: Buying a house in the UK incurs a tax which varies according to the price of the house and circumstances of the purchaser e.g., a higher rate is paid if you are buying a second home. 
+            </p>
+            <h3>
+                This website was used as a reference:
+            </h3>
+            <img src="img/template_website.png" alt="">
+            <p>
+                I was working with <strong>Python</strong> and <strong>PyScript</strong>, which I hadn't used beforehand. 
+                For this project I was using <strong>Unit tests</strong> and it was the first time I implemented them to test my code.
+                The project was done in a more practical way not focusing on looks, just functionality and made using <strong>Html</strong>. 
+            </p>
+            <img src="img/lbtt_screenshot1.png" alt="">
+            <img src="img/lbtt_screenshot2.png" alt="">
+            <p>
+                During my code implementing I ran into a problem, where my source template calculations were different to my project. First I tried to understand the problem and define it.
+                Afterwards I searched for solutions online and systematically went through them one by one, noting what I had done. Having done all that, I retraced my steps and before I could ask 
+                my developer friend for advice telling him what I had done, how that had resulted and what was the current issue. I noticed a slight issue with numbers in code that I fixed which resulted
+                in the expected outcome.
+            </p>
+            <h3>The project website is available below:</h3>
+            
+            <a class="project__item project__link" href="https://kasparsrevins.github.io/LBTT-calculation.github.io/">
+            https://kasparsrevins.github.io/LBTT-calculation.github.io/
+            </a>
+            
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:revins.kaspars@gmail.com" class="footer__link">revins.kaspars@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link" href="https://github.com/KasparsRevins"><i class="fa-brands fa-github"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/kaspars-revins/"><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+        </footer>
+
+        <script src="index.js"></script>
+
+    </body>
+</html>
