@@ -311,18 +311,14 @@ header{
 }
 .section__subtitle--about{
     color: var(--clr--light);
-}
-/* My projects section */
-.my-projects{
-    background-color: var(--clr--dark);
-    color: var(--clr--light);
+    
 }
 
 /* My projects */
 
 .my-projects{
-    background-color: var(--clr--dark);
-    color: var(--clr--light);
+    background-color: var(--clr--light);
+    color: var(--clr--dark);
     text-align: center;
 }
 
