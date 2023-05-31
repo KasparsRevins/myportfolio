@@ -303,9 +303,13 @@ header{
 
 /* My projects */
 
+.section__title--project{
+    color: var(--clr--dark);
+}
+
 .my-projects{
     background-color: var(--clr--light);
-    color: var(--clr--dark);
+    color: var(--clr--light);
     text-align: center;
 }
 
