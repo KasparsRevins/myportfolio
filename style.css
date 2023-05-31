@@ -266,6 +266,7 @@ header{
     position: relative;
     max-width: 1000px;
     margin: 0 auto;
+    padding-bottom: 1em;
 }
 
 .services__body {
