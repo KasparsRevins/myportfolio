@@ -319,12 +319,15 @@ header{
 }
 
 .portfolio__item{
-    background: var(--clr--accent);
     overflow: hidden;
     width: 250px;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
+    color: var(--clr--accent);
+}
+
+.portfolio__project{
+    background: var(--clr--accent);
 }
 
 .portfolio__img{
