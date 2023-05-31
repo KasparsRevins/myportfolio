@@ -320,6 +320,7 @@ header{
     width: 250px;
     margin-left: auto;
     margin-right: auto;
+    padding: 10px;
 }
 
 .portfolio__img{
