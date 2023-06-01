@@ -367,6 +367,7 @@ header{
     text-decoration: none;
     background: var(--clr--accent);
     padding: .5em;
+    border-radius: 3px;
 }
 
 .portfolio__link:hover{
