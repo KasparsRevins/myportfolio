@@ -90,6 +90,7 @@ strong{
  .section__subtitle{
     margin:0;
     font-size: var(--ff-h3);  
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
  }
 
  .section__subtitle--intro,
@@ -371,6 +372,7 @@ header{
     background: var(--clr--accent);
     padding: .5em;
     border-radius: 3px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .portfolio__link:hover{
