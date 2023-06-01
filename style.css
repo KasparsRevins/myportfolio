@@ -365,11 +365,12 @@ header{
 .portfolio__link{
     color: var(--clr--light);
     text-decoration: none;
+    background: var(--clr--accent);
+    padding: .5em;
 }
 
 .portfolio__link:hover{
     opacity: .7;
-    text-decoration: underline;
 }
 
 /* Footer */
