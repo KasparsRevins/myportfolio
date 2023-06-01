@@ -303,6 +303,22 @@ header{
 
 /* My projects */
 
+.text-links{
+    color: var(--clr--accent);
+    text-align: center;
+    font-size: var(--fs-h3);
+    font-weight: var(--fw-bold);
+    text-decoration: none;
+}
+    
+.text-links:hover{
+    opacity: .7;
+    text-decoration: underline;
+}
+
+
+/* ---- */
+
 .section__title--project{
     color: var(--clr--dark);
 }
