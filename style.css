@@ -93,6 +93,11 @@ strong{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
  }
 
+ .project__section__subtitle{
+    margin:0;
+    font-size: var(--ff-h3); 
+ }
+ 
  .section__subtitle--intro,
  .section__subtitle--about{
     background: var(--clr--accent);
